@@ -3,7 +3,7 @@ pipeline {
     environment {
     }
     stages {
-        stage('ymlclone') {
+        stage('jenkinspipelinetest') {
             steps {
                     sh """
                         echo "hello pipeline"
