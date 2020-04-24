@@ -1,9 +1,9 @@
 pipeline {
-    agent { label "maven" }
+    agent any
     environment {
     }
     stages {
-        stage('jenkinspipelinetest') {
+        stage('pipelinetest') {
             steps {
                     sh """
                         oc login -u kubeadmin -p SwgA8-5SJZA-rLRUI-AZRzM
